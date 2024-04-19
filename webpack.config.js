@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    mode: 'development',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: 'main.js',
@@ -13,5 +13,5 @@ module.exports = {
         title: 'Restaurant homepage',
         template: './src/index.html'
     }),
-  ]
+  ],
 };
